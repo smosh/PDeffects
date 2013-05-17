@@ -1,0 +1,15 @@
+#N canvas 592 67 562 383 10;
+#X obj -46 78 chorus;
+#X obj -48 274 output~;
+#X obj 160 277 throw~ MOC-wavetable;
+#X obj -32 236 +~;
+#X obj 16 246 hip~ 1;
+#X obj -48 0 adc~;
+#X connect 0 0 3 0;
+#X connect 0 1 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 1 0;
+#X connect 4 0 1 1;
+#X connect 4 0 2 0;
+#X connect 5 0 0 0;
+#X connect 5 1 0 0;

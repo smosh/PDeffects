@@ -1,0 +1,8 @@
+#N canvas 0 22 450 300 10;
+#X obj 180 76 LiveGranulizer;
+#X obj 179 48 adc~;
+#X obj 178 274 output~;
+#X connect 0 0 2 0;
+#X connect 0 0 2 1;
+#X connect 1 0 0 0;
+#X connect 1 1 0 0;

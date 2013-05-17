@@ -1,0 +1,8 @@
+#N canvas 802 467 134 142 10;
+#X obj 32 20 adc~;
+#X obj 33 72 output~;
+#X obj 32 46 SimpleReverb;
+#X connect 0 0 2 0;
+#X connect 0 1 2 0;
+#X connect 2 0 1 0;
+#X connect 2 1 1 1;
